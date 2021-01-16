@@ -1,0 +1,142 @@
+@media only screen and (max-width: 1200px) {
+  .sidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding-right: 55px;
+    padding-left: 55px;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+    clear: none;
+  }
+
+  .sidebar__paragraph {
+    width: 100%;
+    position: static;
+    padding: 60px 0;
+  }
+
+  .wrapper__button {
+    float: left;
+  }
+
+  .block__paragraph {
+    width: 80%;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .column {
+    flex: 100%;
+  }
+
+  .block_image {
+    width: 90%;
+    height: auto;
+  }
+  .block__parallax_effect {
+    .block__parallax_effect_element_1,
+    .block__parallax_effect_element_2,
+    .block__parallax_effect_element_3,
+    .block__parallax_effect_element_4,
+    .block__parallax_effect_element_5,
+    .block__parallax_effect_element_6 {
+      display: none;
+    }
+    width: 100%;
+  height: auto;
+  }
+  .block__parallax_effect2{
+    .block__parallax_effect2_element_1, .block__parallax_effect2_element_2 {
+      display: none;
+    }
+    width: 100%;
+  height: auto;
+  }
+  .block__parallax_effect3{
+    .block__parallax_effect3_element_1, .block__parallax_effect3_element_2, .block__parallax_effect3_element_3, #bannerproject2{
+      display: none;
+    }
+    width: 100%;
+  height: auto;
+  }
+  .block__header_project3{
+  display: none;
+    }
+    .block__header_2_project3{
+      display:none;
+    }
+    .next_image{
+      display: none;
+      }
+      .next__link_01{
+        padding-top: 20px;
+      }
+      .next__link_02{
+        padding-bottom: 20px;
+      }
+      .block_image_project4
+{
+
+  width:100%;
+  height:auto;
+  margin:0 auto;
+}
+
+
+.block__header_project5{
+  background-color: #FFC700;
+  img {
+    width: 30%;
+    height: 100%;
+   margin: 0 auto;
+  }
+ 
+}
+
+  .block_image_project5{
+  width: 80%;
+  height:auto;
+  margin:0 auto;
+}
+
+}
+@media only screen and (min-width: 1200px) {
+.block__parallax_effect{
+  .block_image_responsive {
+    display: none;
+  }
+}
+.block__parallax_effect2{
+  .block_image_responsive {
+    display: none;
+  }
+}
+  // 
+  // .block {
+  //   .block_image_responsive{
+  //   display: none;}
+  // }
+  .project_3_mobile{
+    display: none;
+  }
+  .project_3_mobile_header2 {
+    display: none;
+  }
+
+  .block_image_project5{
+    width:40%;
+  height:auto;
+  margin:0 auto;
+}
+
+
+
+
+}

@@ -1,0 +1,28 @@
+.wrapper__title {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.wrapper__button{
+
+  display: inline-block;
+  padding: 12px 60px;
+  border-radius: 100px;
+  background-color: #3898EC;
+  color: white;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.wrapper__button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.one {
+  padding: 100px;
+}

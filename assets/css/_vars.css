@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@media only screen and (max-width: 991px) {
+  .sidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding-right: 55px;
+    padding-left: 55px; }
+  .wrapper {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+    clear: none; }
+  .about_container {
+    width: 100%;
+    position: static;
+    padding: 60px 0; }
+  .button2 {
+    float: left; }
+  .text_section {
+    width: 80%; }
+  .row {
+    display: block; }
+  .column {
+    -webkit-box-flex: 100%;
+    -ms-flex: 100%;
+    flex: 100%; }
+  .imagesec {
+    width: 90%;
+    height: auto; }
+  .bannbg {
+    background-image: url("../../img/KFC-Website – MOCKUP.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+    .bannbg .fiveb,
+    .bannbg .fourb,
+    .bannbg .oneb,
+    .bannbg .sechsb,
+    .bannbg .threeb,
+    .bannbg .twob {
+      display: none; }
+  .bannerbg {
+    display: none; } }
